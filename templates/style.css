@@ -1,0 +1,21 @@
+.content {
+    margin: auto;
+    max-width: 100%;
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: [full-start] 1fr[content-start slider-start] 10fr[content-end] 1fr[slider-end full-end];
+    grid-gap: 5px;
+}
+
+.heading {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    grid-column: content;
+}
+
+.h1 {
+    text-align: center;
+}
